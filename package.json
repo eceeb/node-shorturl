@@ -1,17 +1,17 @@
-{ "name": "shorturl"
-, "version": "v0.0.3"
+{ "name": "shorturl-2"
+, "version": "v0.0.4"
 , "description": "Simple URL shortener client library"
 , "keywords": ["shorturl", "shortlink", "bit.ly", "bitly", "goo.gl", "is.gd"]
-, "author": "Jeff Waugh <jdub@bethesignal.org>"
-, "homepage": "https://github.com/jdub/node-shorturl"
-, "bugs": { "url": "https://github.com/jdub/node-shorturl/issues" }
+, "author": "eceeb"
+, "homepage": "https://github.com/eceeb/node-shorturl"
+, "bugs": { "url": "https://github.com/eceeb/node-shorturl/issues" }
 , "licenses":
   [ { "type": "MIT"
-    , "url": "https://github.com/jdub/node-shorturl/raw/master/LICENSE"
+    , "url": "https://github.com/eceeb/node-shorturl/raw/master/LICENSE"
   } ]
 , "repository":
   { "type": "git"
-  , "url": "https://github.com/jdub/node-shorturl.git"
+  , "url": "https://github.com/eceeb/node-shorturl.git"
   }
 , "dependencies":
   { "request": ">=2.9.153",
