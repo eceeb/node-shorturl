@@ -88,7 +88,7 @@ var shorteners = {
 	},
 
 	'is.gd': function(longurl, params, callback) {
-		var host = 'http://is.gd/';
+		var host = 'https://is.gd/';
 		if ( 'host' in params && ['is.gd', 'v.gd'].indexOf(params.host) >= 0 ) {
 			host = 'http://' + params.host + '/';
 			delete params.host;
