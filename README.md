@@ -17,7 +17,7 @@ You can install node-shorturl and its dependencies with npm: `npm install shortu
 
 ## Examples
 
-	var shorturl = require('shorturl');
+	var shorturl = require('shorturl-2');
 	shorturl('http://bethesignal.org/', function(result) {
 		console.log(result);
 	});
