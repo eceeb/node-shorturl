@@ -51,3 +51,7 @@ Simple services can be described using a string substitution link. Pass the enti
 	http://arseh.at/3yd
 
 Display the built-in command line documentation with `shorten --help`.
+
+## Changelog
+
+### 0.0.7 - Update to allow goo.gl to accept a key (docs were there but code didn't allow for it).

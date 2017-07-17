@@ -1,4 +1,4 @@
-var VERSION = '0.0.3',
+var VERSION = '0.0.7',
 	request = require('request'),
 	querystring = require('querystring').stringify;
 
@@ -74,8 +74,11 @@ var shorteners = {
 	},
 
 	'goo.gl': function(longurl, params, callback) {
+		var uri = params && params.key ? 
+		            'https://www.googleapis.com/urlshortener/v1/url?key=' + params.key : 
+		            'https://www.googleapis.com/urlshortener/v1/url';
 		request({
-			uri: 'https://www.googleapis.com/urlshortener/v1/url',
+			uri: uri,
 			method: 'POST',
 			json: {longUrl:longurl}
 		}, function(error, response, body) {
