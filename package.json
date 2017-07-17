@@ -1,5 +1,5 @@
 { "name": "shorturl-2"
-, "version": "v0.0.6"
+, "version": "v0.0.7"
 , "description": "Simple URL shortener client library"
 , "keywords": ["shorturl", "shortlink", "bit.ly", "bitly", "goo.gl", "is.gd"]
 , "author": "eceeb"
